@@ -31,7 +31,9 @@
 
 ;; 添加 package
 (defconst JHu-packages
-  '(youdao-dictionary)
+  '(youdao-dictionary
+    ;; (ess-R-object-popup :location (recipe :fetcher github :repo "myuhe/ess-R-object-popup"))
+    )
   )
 
 ;; 初始化 package
@@ -44,8 +46,10 @@
     )
   )
 
-
-
+;; (defun JHu/init-ess-R-object-popup ()
+;;   (use-package ess-R-object-popup
+;;     :init)
+;;   )
 
 
 ;;; packages.el ends here
