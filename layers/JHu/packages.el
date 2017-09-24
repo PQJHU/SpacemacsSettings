@@ -33,6 +33,7 @@
 (defconst JHu-packages
   '(youdao-dictionary
     ;; (ess-R-object-popup :location (recipe :fetcher github :repo "myuhe/ess-R-object-popup"))
+    lispy
     )
   )
 
@@ -51,5 +52,10 @@
 ;;     :init)
 ;;   )
 
+(defun JHu/init-lispy ()
+  (use-package lispy
+    :init
+   )
+  )
 
 ;;; packages.el ends here
