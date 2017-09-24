@@ -22,7 +22,7 @@
 
 ;; select and highlight words
 
-(defun JHu/mark-words-for-selection ()
+(defun JHu/my-mc-mark-next-like-this()
      (interactive)
      (if (region-active-p)
          (mc/mark-next-like-this 1)
